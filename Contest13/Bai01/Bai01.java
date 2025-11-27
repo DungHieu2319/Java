@@ -4,10 +4,16 @@
  */
 package Contest13.Bai01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lenovo
  */
 public class Bai01 {
-    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        PhanSo x = new PhanSo(sc.nextLong(), sc.nextLong());
+        System.out.println(x);
+    }
 }
